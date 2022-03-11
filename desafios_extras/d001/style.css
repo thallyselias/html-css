@@ -1,0 +1,16 @@
+.spinner{
+    width: 200px;
+    height: 200px;
+    border-radius: 8px;
+    background-color: #3ce707ce;
+    animation: slide 2s infinite; /*adicionando animação*/
+
+}
+
+@keyframes slide{
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform:rotate(90deg)
+    }

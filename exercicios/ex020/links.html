@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        a{
+            color: red;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        li{
+            color: rgba(107, 2, 2, 0.671);
+        }
+
+        a:visited{
+            color: darkred;
+        }
+
+        a:hover{
+            color: black;
+            text-decoration: underline
+        }
+
+        a:active{
+            color: rgba(255, 101, 45, 0.719);
+        }
+
+        .especial{
+            background-color: rgba(248, 96, 96, 0.404);
+        }
+
+        .especial::before{
+            content: '☛ ';
+            font-weight: lighter;
+            text-decoration: none;
+            color: darkblue;
+        }
+        
+        .especial::after{
+            content: ' ☚';
+            font-weight: lighter;
+            text-decoration: none;
+            color: darkblue;
+        }
+    </style>
+</head>
+<body>
+    <h1>Personalizando Links</h1>
+    <ul>
+        <li><a href="https://www.youtube.com/" target="_blank">Site do YouTube</a></li>
+        <li><a href="https://www.netflix.com/br/" target="_blank">Site da Netflix</a></li>
+        <li><a href="https://www.twitch.tv/" class="especial" target="_blank">Site do Twitch</a></li>
+        
+    </ul>
+</body>
+</html>
