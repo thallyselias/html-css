@@ -13,12 +13,24 @@
             border-collapse: collapse;
             width: 500px;
             height: 50px;
+            position: relative;
         }
         thead, tfoot{
             background-color: gray;
             color: white;
             text-align: center;
         }
+
+        thead > tr > th{
+            position: sticky;
+            top: -1px;
+            background-color: gray;
+        }
+
+        tbody:nth-child(2n){
+            background-color: lightgray;
+        }
+
         th, td{
             border: 1px solid black;
             padding: 10px;
@@ -78,6 +90,50 @@
             <td>Alagoas</td>
             <td class="num">3.957.462,36</td>
         </tbody>
+        <tbody>
+            <td>Pará</td>
+            <td class="num">927.462,36</td>
+        </tbody>
+        <tbody>
+            <td>Amazonas</td>
+            <td class="num">57.462,36</td>
+        </tbody>
+        <tbody>
+            <td>Maranhão</td>
+            <td class="num">1.052.232,56</td>
+        </tbody>
+        <tbody>
+            <td>Goiás</td>
+            <td class="num">2.097.342,10</td>
+        </tbody>
+        <tbody>
+            <td>Paraiba</td>
+            <td class="num">1.349.293,12</td>
+        </tbody>
+        <tbody>
+            <td>Rio Grande do Norte</td>
+            <td class="num">2.234.363,19</td>
+        </tbody>
+        <tbody>
+            <td>Espirito Santo</td>
+            <td class="num">1.986.532,34</td>
+        </tbody>
+        <tbody>
+            <td>Pernambuco</td>
+            <td class="num">2.847.293,10</td>
+        </tbody>
+        <tbody>
+            <td>Sergipe</td>
+            <td class="num">3.923.345,12</td>
+        </tbody>
+        <tbody>
+            <td>Rondônia</td>
+            <td class="num">934.345,12</td>
+        </tbody>
+        <tbody>
+            <td>Alagoas</td>
+            <td class="num">3.957.462,36</td>
+        </tbody>
         <tfoot><!--Pé-->
             <tr>
                 <th scope="row">Total</th>
@@ -85,5 +141,14 @@
             </tr>
         </tfoot>
     </table>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nemo ipsum molestias sint mollitia cumque reiciendis rem dolorem ratione nulla, accusamus distinctio voluptatibus architecto ullam minus, consequatur iusto possimus repellendus saepe?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi, vero beatae, quaerat ratione, dolores ut et excepturi consequuntur nulla sint eius. Illo eum impedit aperiam tempore modi sint suscipit consectetur! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dignissimos consequatur quidem facere aliquam debitis error deserunt eum vero ratione labore! Laborum earum, eligendi repudiandae sed dolorum nostrum impedit nesciunt eaque? Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima modi rerum amet totam inventore quo enim, praesentium assumenda magnam similique eveniet quisquam delectus nesciunt reiciendis officia illum ea, quam nemo?</p>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nemo ipsum molestias sint mollitia cumque reiciendis rem dolorem ratione nulla, accusamus distinctio voluptatibus architecto ullam minus, consequatur iusto possimus repellendus saepe?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi, vero beatae, quaerat ratione, dolores ut et excepturi consequuntur nulla sint eius. Illo eum impedit aperiam tempore modi sint suscipit consectetur! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dignissimos consequatur quidem facere aliquam debitis error deserunt eum vero ratione labore! Laborum earum, eligendi repudiandae sed dolorum nostrum impedit nesciunt eaque? Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima modi rerum amet totam inventore quo enim, praesentium assumenda magnam similique eveniet quisquam delectus nesciunt reiciendis officia illum ea, quam nemo?</p>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nemo ipsum molestias sint mollitia cumque reiciendis rem dolorem ratione nulla, accusamus distinctio voluptatibus architecto ullam minus, consequatur iusto possimus repellendus saepe?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi, vero beatae, quaerat ratione, dolores ut et excepturi consequuntur nulla sint eius. Illo eum impedit aperiam tempore modi sint suscipit consectetur! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dignissimos consequatur quidem facere aliquam debitis error deserunt eum vero ratione labore! Laborum earum, eligendi repudiandae sed dolorum nostrum impedit nesciunt eaque? Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima modi rerum amet totam inventore quo enim, praesentium assumenda magnam similique eveniet quisquam delectus nesciunt reiciendis officia illum ea, quam nemo?</p>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nemo ipsum molestias sint mollitia cumque reiciendis rem dolorem ratione nulla, accusamus distinctio voluptatibus architecto ullam minus, consequatur iusto possimus repellendus saepe?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi, vero beatae, quaerat ratione, dolores ut et excepturi consequuntur nulla sint eius. Illo eum impedit aperiam tempore modi sint suscipit consectetur! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dignissimos consequatur quidem facere aliquam debitis error deserunt eum vero ratione labore! Laborum earum, eligendi repudiandae sed dolorum nostrum impedit nesciunt eaque? Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima modi rerum amet totam inventore quo enim, praesentium assumenda magnam similique eveniet quisquam delectus nesciunt reiciendis officia illum ea, quam nemo?</p>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nemo ipsum molestias sint mollitia cumque reiciendis rem dolorem ratione nulla, accusamus distinctio voluptatibus architecto ullam minus, consequatur iusto possimus repellendus saepe?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi, vero beatae, quaerat ratione, dolores ut et excepturi consequuntur nulla sint eius. Illo eum impedit aperiam tempore modi sint suscipit consectetur! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dignissimos consequatur quidem facere aliquam debitis error deserunt eum vero ratione labore! Laborum earum, eligendi repudiandae sed dolorum nostrum impedit nesciunt eaque? Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima modi rerum amet totam inventore quo enim, praesentium assumenda magnam similique eveniet quisquam delectus nesciunt reiciendis officia illum ea, quam nemo?</p>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nemo ipsum molestias sint mollitia cumque reiciendis rem dolorem ratione nulla, accusamus distinctio voluptatibus architecto ullam minus, consequatur iusto possimus repellendus saepe?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi, vero beatae, quaerat ratione, dolores ut et excepturi consequuntur nulla sint eius. Illo eum impedit aperiam tempore modi sint suscipit consectetur! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dignissimos consequatur quidem facere aliquam debitis error deserunt eum vero ratione labore! Laborum earum, eligendi repudiandae sed dolorum nostrum impedit nesciunt eaque? Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima modi rerum amet totam inventore quo enim, praesentium assumenda magnam similique eveniet quisquam delectus nesciunt reiciendis officia illum ea, quam nemo?</p>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nemo ipsum molestias sint mollitia cumque reiciendis rem dolorem ratione nulla, accusamus distinctio voluptatibus architecto ullam minus, consequatur iusto possimus repellendus saepe?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi, vero beatae, quaerat ratione, dolores ut et excepturi consequuntur nulla sint eius. Illo eum impedit aperiam tempore modi sint suscipit consectetur! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dignissimos consequatur quidem facere aliquam debitis error deserunt eum vero ratione labore! Laborum earum, eligendi repudiandae sed dolorum nostrum impedit nesciunt eaque? Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima modi rerum amet totam inventore quo enim, praesentium assumenda magnam similique eveniet quisquam delectus nesciunt reiciendis officia illum ea, quam nemo?</p>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nemo ipsum molestias sint mollitia cumque reiciendis rem dolorem ratione nulla, accusamus distinctio voluptatibus architecto ullam minus, consequatur iusto possimus repellendus saepe?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi, vero beatae, quaerat ratione, dolores ut et excepturi consequuntur nulla sint eius. Illo eum impedit aperiam tempore modi sint suscipit consectetur! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dignissimos consequatur quidem facere aliquam debitis error deserunt eum vero ratione labore! Laborum earum, eligendi repudiandae sed dolorum nostrum impedit nesciunt eaque? Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima modi rerum amet totam inventore quo enim, praesentium assumenda magnam similique eveniet quisquam delectus nesciunt reiciendis officia illum ea, quam nemo?</p>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nemo ipsum molestias sint mollitia cumque reiciendis rem dolorem ratione nulla, accusamus distinctio voluptatibus architecto ullam minus, consequatur iusto possimus repellendus saepe?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi, vero beatae, quaerat ratione, dolores ut et excepturi consequuntur nulla sint eius. Illo eum impedit aperiam tempore modi sint suscipit consectetur! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dignissimos consequatur quidem facere aliquam debitis error deserunt eum vero ratione labore! Laborum earum, eligendi repudiandae sed dolorum nostrum impedit nesciunt eaque? Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima modi rerum amet totam inventore quo enim, praesentium assumenda magnam similique eveniet quisquam delectus nesciunt reiciendis officia illum ea, quam nemo?</p>
 </body>
 </html>
