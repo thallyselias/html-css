@@ -21,6 +21,10 @@ Grandes telas: acima de 1200px
         background-image: url(../imagens/back-tablet.jpg);
     }
 
+    h1{
+        font-size: 30px;
+    }
+
     img#phone{display: none;}
     img#tablet{display: block;}
     img#impressora{display: none;}
@@ -33,6 +37,10 @@ Grandes telas: acima de 1200px
     body{
         background-image: url(../imagens/back-pc.jpg);
     }
+
+    h1{
+        font-size: 35px;
+    }
     img#phone{display: none;}
     img#tablet{display: none;}
     img#impressora{display: none;}
@@ -40,9 +48,14 @@ Grandes telas: acima de 1200px
     img#tv{display: none;}
 }
 
+/* Versão para telas grandes. Ex: Tv */
 @media screen and (min-width:1200px) {
     body{
         background-image: url(../imagens/back-tv.jpg);
+    }
+
+    h1{
+        font-size: 40px;
     }
     img#phone{display: none;}
     img#tablet{display: none;}
