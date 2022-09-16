@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Query</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" /> 
+    <link rel="stylesheet" href="estilos/style.css">
+
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <!-- Inicio Menu hamburguinho -->
+        <span class="material-symbols-outlined" id="burguer" onclick="clickMenu()">
+            menu
+        </span>
+        <!-- Fim do Menu hamgurguinho -->
+        <menu id="itens">
+            <ul>
+                <li><a href="#">Opção 1</a></li>
+                <li><a href="#">Opção 2</a></li>
+                <li><a href="#">Opção 3</a></li>
+                <li><a href="#">Opção 4</a></li>
+                <li><a href="#">Opção 5</a></li>
+            </ul>
+        </menu>
+    </header>
+    <main>
+        <article>
+            <h2>Testando media queries</h2>
+            <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odio id consectetur consequatur laboriosam consequuntur eum corporis voluptate atque temporibus alias, expedita et blanditiis! Labore dignissimos corrupti fuga, consequatur dolorum quia! Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium consequuntur, distinctio facere voluptas obcaecati sunt ut itaque amet nulla nam cumque velit dolores earum et est voluptatem, ipsa magni tenetur!
+            </p>
+
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore, doloremque sapiente nulla cumque commodi facilis velit voluptate at minima magnam ex itaque impedit accusamus animi veniam, obcaecati blanditiis harum temporibus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum iste officia expedita libero fugiat sapiente, adipisci esse, mollitia iure tempore, eveniet voluptatum repellat dolor labore magni! Voluptatum sapiente tempora quis.
+            </p>
+
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia ipsam non optio quae maxime eligendi, temporibus voluptas quas officiis odit fugiat inventore tempore, modi sint sunt quam repellat quo illo! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illo magni itaque odio veniam tenetur minima, eius, culpa voluptatibus aut impedit repudiandae aliquam cumque dicta fugit! Commodi praesentium ullam velit dignissimos.
+            </p>
+        </article>
+    </main>
+    <!-- ########################################### -->
+    <!-- Espaço JS -->
+
+    <script>
+        function clickMenu() {
+            if (itens.style.display == 'block') {
+                itens.style.display = 'none'
+            }
+            else {
+            itens.style.display = 'block'
+        }
+
+        }
+       
+    </script>
+
+</body>
+</html>
