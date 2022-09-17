@@ -1,0 +1,24 @@
+@charset "UTF-8";
+
+/* 
+para telas pequenas: até 600px
+telas celulares: 600px x 768px
+telas para tablet: 768px x 992px
+telas para desktop: 992px x 1200px
+para telas maiores: acima de 1200px
+*/
+
+@media screen and (min-width: 768px) {
+    #burguer{
+        display: none;
+    }
+
+    menu{
+        display: block;
+    }
+
+    menu > ul > li{
+        display: inline-block;
+    }
+}
+
